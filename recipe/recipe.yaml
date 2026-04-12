@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: excel-mcp-server
-  version: "0.1.7"
+  version: "0.1.8"
   python_min: '3.10'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/excel_mcp_server-${{ version }}.tar.gz
-  sha256: b18e46ec72e3221d38303fb4dfc1e6f4aaf695b1f3dab505907e8a7f9cbddae7
+  sha256: 98f6b25957cc105a0d68d9a98a5830204ab3f3f7a79de27a91ae8d1a9291fdcd
   patches:
     - patches/fix-package-location.patch
 
